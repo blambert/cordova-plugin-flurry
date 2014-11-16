@@ -24,16 +24,6 @@
 	<dependency id="com.rjfun.cordova.ad" version=">=1.0.0"/>
 	<dependency id="com.flurry.sdk" version=">=5.4.0"/>
 	
-    <!-- android -->
-    <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="FlurryAds">
-                <param name="android-package" value="com.rjfun.cordova.flurry.FlurryAdPlugin"/>
-            </feature>
-        </config-file>
-        <source-file src="src/android/cordova-flurryads.jar" target-dir="libs" />
-     </platform>
-     
      <!-- ios -->
      <platform name="ios">    
          <config-file target="config.xml" parent="/*">
